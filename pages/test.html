@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>
+        DataViz Test
+    </title>
+    <style type="text/css">
+        #viz {
+            width: 900px;
+            height: 700px;
+        }
+    </style>
+    <script src="https://unpkg.com/neovis.js@2.0.2"></script>
+</head>
+<script>
+    function draw() {
+        var config = {
+            container_id: "viz1",
+            server_url: "bolt://7ab4c762.databases.neo4j.io:32889",
+            server_user: "neo4j",
+            server_password: "bcwsc@1code",
+            labels: {
+
+            },
+            relationships: {
+
+            },
+            initial_cypher: 'MATCH (j3:Job {_id:"800"})<-[t2]-(j2:Job)<-[t1]-(j1:Job) WHERE t2.prob>"0.001" and  NOT t2.prob contains "E" and t1.prob>"0.0001" and  NOT t1.prob contains "E"  and j2<>j1 and j3<>j2 RETURN j1,t1,t2,j2;'
+        }
+        var viz1 = new NeoViz.default(config);
+        viz.render();
+    }
+</script>
+
+<body>
+    <div id="viz1">
+
+    </div>
+</body>
+
+</html>

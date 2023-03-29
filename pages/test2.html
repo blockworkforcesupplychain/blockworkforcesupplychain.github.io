@@ -1,0 +1,39 @@
+<script type="text/javascript">
+
+    let neoViz;
+
+    function draw() {
+        const config = {
+            containerId: "viz",
+            neo4j: {
+                serverUrl: "bolt://7ab4c762.databases.neo4j.io:32889",
+                serverUser: "neo4j",
+                serverPassword: "bcwsc@1code",
+            },
+            labels: {
+                Character: {
+                    label: "name",
+                    value: "pagerank",
+                    group: "community",
+                    [NeoVis.NEOVIS_ADVANCED_CONFIG]: {
+                        function: {
+                            title: (node) => viz.nodeToHtml(node, [
+                                "name",
+                                "pagerank"
+                            ])
+                        }
+                    }
+                }
+            },
+            relationships: {
+                INTERACTS: {
+                    value: "weight"
+                }
+            },
+            initialCypher: 'MATCH (j3:Job {_id:"800"})<-[t2]-(j2:Job)<-[t1]-(j1:Job) WHERE t2.prob>"0.001" and  NOT t2.prob contains "E" and t1.prob>"0.0001" and  NOT t1.prob contains "E"  and j2<>j1 and j3<>j2 RETURN j1,t1,t2,j2;'
+        };
+
+        neoViz = new NeoVis.default(config);
+        neoViz.render();
+    }
+</script>
