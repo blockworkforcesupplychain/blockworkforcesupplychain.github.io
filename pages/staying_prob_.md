@@ -1,4 +1,4 @@
-# Testing visualisations
+# Testing visualisations (TreeMap)
 
 
 | [Move To New Role](to_new_role) | [Move From Current Role](from_current_role) | [Staying Probability](staying_prob) | 
@@ -22,8 +22,8 @@ Filter by role you want to move from
 
 ## Staying in Same role probability
 Filter by probability percentage (range of 10s)
-[Toggle](staying_prob_)
+[Toggle](staying_prob)
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/13241287"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/13247693"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
