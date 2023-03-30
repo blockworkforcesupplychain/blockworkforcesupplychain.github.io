@@ -21,6 +21,8 @@ Filter by role you want to move from
 <div class="flourish-embed flourish-chart" data-src="visualisation/13240513"><script src="https://public.flourish.studio/resources/embed.js"></script></div> -->
 
 ## Staying in Same role probability
+This helps a user to see the probability of staying in a job role; this might help a person make a more informed decision if they want job security.
+
 Filter by probability percentage (range of 10s)
 [Toggle](staying_prob)
 

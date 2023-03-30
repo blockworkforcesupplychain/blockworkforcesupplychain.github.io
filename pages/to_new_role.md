@@ -4,6 +4,7 @@
 
 
 ## Probability of moving to a new role 
+This is to help a person see the kinds of people that frequently move into a specific role (for recruiters to see where they can more easily get people in other roles to fill a role)
 Filter by Role you want to move TO
 <div class="flourish-embed flourish-chart" data-src="visualisation/13240354"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
