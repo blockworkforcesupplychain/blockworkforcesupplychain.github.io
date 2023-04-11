@@ -9,6 +9,9 @@ Week 4 - April 9 - April 15
 - [x] Received data from Harrison
 - [x] Received data from Liz
 - [x] Meeting with Liz to go through next steps (explore data, create initial parameters to highlight, website)
+- [ ] format data into database
+- [ ] establish the SOC keys are foreign keys
+- [ ] update graph database with the SOC data
 
 Week 3 - April 2 - April 8
 - [x] Meet with Liz: Explore her research
