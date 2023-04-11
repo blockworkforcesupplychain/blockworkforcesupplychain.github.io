@@ -5,14 +5,17 @@ This is to share visualisation tests and tract progress
 
 <!-- | [Move To New Role](pages/to_new_role) | [Move From Current Role](pages/from_current_role) | [Staying Probability](pages/staying_prob) |  -->
 
+Week 4 - April 9 - April 15
+- [x] Received data from Harrison
+- [x] Received data from Liz
+- [x] Meeting with Liz to go through next steps (explore data, create initial parameters to highlight, website)
 
-Week 1 - March 19 - March 25
-- [x] Explore data
-- [x] Access to repository, first update meeting
-- [x] Feasibility checks for semantic graph database for relationship analysis - neo4j 
+Week 3 - April 2 - April 8
+- [x] Meet with Liz: Explore her research
+- [x] debug graph database (in preparation for SOC codes)
+- [x] Read writeup by Liz and get clarifications on some functions and possiblities
 
-
-Week 2 - March 26 - April 31
+Week 2 - March 26 - April 1
 - [x] Create email (blockworkforcesupplychain@gmail.com) for all code credentials
 - [x] Create MySQL database on Google Cloud Console
 - [x] Load initial data into the database (job_codes, job_transitions)
@@ -26,3 +29,8 @@ Week 2 - March 26 - April 31
 - [x] created a test website
 - [x] exploring neo4j graph database
 - [ ] researching visualisation options and tools with neo4j graph in website
+
+Week 1 - March 19 - March 25
+- [x] Explore data
+- [x] Access to repository, first update meeting
+- [x] Feasibility checks for semantic graph database for relationship analysis - neo4j 

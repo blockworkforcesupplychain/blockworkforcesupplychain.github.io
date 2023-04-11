@@ -1,7 +1,7 @@
 # Testing visualisations
 
 
-| [Move To New Role](to_new_role) | [Move From Current Role](from_current_role) | [Staying Probability](staying_prob) | 
+<!-- | [Move To New Role](to_new_role) | [Move From Current Role](from_current_role) | [Staying Probability](staying_prob) |  -->
 
 
 <style>
